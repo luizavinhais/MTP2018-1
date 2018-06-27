@@ -5,34 +5,35 @@ MATRICULA 11721EBI020//
 
 #include <stdio.h>
 
+int ackermann(int m, int n){
 
+	if(m == 0) return n+1;
 
-int ackerman(int, int);
+	else if(n == 0) return ackermann(m-1, 1);
 
-int main()
-
-{	int m, n;
-
-	printf("Digite os valores dos parametros m e n: ");
-
-	scanf("%d %d", &m, &n);
-
-
-
-	printf("Saida = %d ", ackerman(m, n));
-
-	return 0;
+	else return ackermann(m-1, ackermann (m, n-1));
 
 }
 
-int ackerman(int m, int n)
+int main(){
 
-{	if(m==0){	return n + 1;	}
+	int m, n;
 
-	else if(m > 0 && n==0) {	ackerman(m-1, 1);	}
+	printf("\nDigite o parametro m: ");
 
-	else if(m > 0 && n > 0) {	ackerman(m - 1, ackerman(m, n - 1));
+	scanf("%d", &m);
 
+	getchar();
+
+	printf("\nDigite o parametro n: ");
+
+	scanf("%d", &n);
+
+	getchar();
+
+	printf("\nResulta em: %d", ackermann(m,n));
+
+	return 0;}
 	}
 
 }
