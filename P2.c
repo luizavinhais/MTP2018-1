@@ -35,7 +35,7 @@ int main()
 
 			printf("\nDigite o numero binario: ");
 
-			scanf("%s", &num);
+			scanf("%s", num);
 
 			getchar();
 
@@ -77,7 +77,7 @@ int main()
 
 			printf("\nDigite o numero binario: ");
 
-			scanf("%s", &n_bin);
+			scanf("%s", n_bin);
 
 			getchar();
 
@@ -121,7 +121,7 @@ int main()
 
 			printf("\nDigite o numero hexadecimal: ");
 
-			scanf("%s", &num);
+			scanf("%s", num);
 
 			getchar();
 
@@ -381,7 +381,7 @@ int main()
 
 			printf("\nDigite o numero octal: ");
 
-			scanf("%s", &num);
+			scanf("%s", num);
 
 			getchar();
 
