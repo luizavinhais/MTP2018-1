@@ -1,6 +1,4 @@
-//
-Luiza Siqueira Vinhais 
-MatriculA 11721EBI020//
+//Luiza Siqueira Vinhais Matricula 11721EBI020//
 
 #include <stdio.h>
 
