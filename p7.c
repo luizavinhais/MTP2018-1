@@ -1,6 +1,5 @@
 
-// Luiza Siqueira Vinhais	
-MATRICULA 11721EBI020//
+// Luiza Siqueira Vinhais MATRICULA 11721EBI020//
 
 
 #include <stdio.h>
@@ -33,7 +32,6 @@ int main(){
 
 	printf("\nResulta em: %d", ackermann(m,n));
 
-	return 0;}
-	}
+	return 0;
 
 }
