@@ -1,5 +1,4 @@
-// Luiza Siqueira Vinhais 
-Matricula 11721EBI020 //
+// Luiza Siqueira Vinhais Matricula 11721EBI020 //
 
 #include <string.h>
 #include <stdio.h>
