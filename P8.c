@@ -52,7 +52,7 @@ int main(){
 
 	do{
 
-	printf("\n Escolha uma das opcoes: \n1 - Somatorio.\n2 - Produto.\n3 - Sair do prgrama.");
+	printf("\n Escolha uma das opcoes: \n1 - Somatorio.\n2 - Produto.\n3 - Sair do programa.");
 
 	printf("\nDigite a opcao: ");
 
